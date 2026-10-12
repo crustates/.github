@@ -5,7 +5,8 @@
 
 **The open-source, European cloud for your apps and data.**
 
-Crustates is pre-alpha. We build in public, and nothing is production-ready yet.
+Crustates is a hosted platform — we run it; you use it. Pre-alpha: we build in
+public, and nothing is production-ready yet.
 
 ## Products
 
@@ -15,8 +16,8 @@ Crustates is pre-alpha. We build in public, and nothing is production-ready yet.
 ## Principles
 
 - **Sovereign** — EU company, EU infrastructure, EU subprocessors.
-- **Open source** — AGPL-3.0, fully self-hostable.
-- **No lock-in** — standard Postgres, containers, OTLP, `supabase-js` compatible.
+- **Open source** — AGPL-3.0 and public, for transparency and trust.
+- **No lock-in** — standard Postgres, containers, OTLP, `supabase-js` compatible; export your apps and data any time.
 
 <p>
   <img src="https://raw.githubusercontent.com/crustates/brand/main/svg/badge-open-source.svg" alt="Open source" height="28">

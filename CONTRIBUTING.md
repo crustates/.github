@@ -43,9 +43,8 @@ Each repository's README explains how to set it up.
 Every dependency must pass the Crustates component policy:
 
 1. An OSI-approved licence, or a managed service run by a European company
-   that speaks an open standard and has a documented open-source alternative
-   for self-hosters
-2. No phone-home; a self-hostable alternative exists
+   that speaks an open standard
+2. No phone-home; operable by us and replaceable behind a port
 3. Forkable if the maintainer relicenses
 4. Nothing that sends customer data outside European-operated infrastructure
 
