@@ -34,6 +34,7 @@ public, and nothing is production-ready yet.
 | [crustates/website](https://github.com/crustates/website) | The marketing site and changelog page: [crustates.eu](https://crustates.eu). |
 | [crustates/status](https://github.com/crustates/status) | The status page: [status.crustates.eu](https://status.crustates.eu). |
 | [crustates/brand](https://github.com/crustates/brand) | Logo, design tokens and fonts. |
+| [crustates/homebrew-tap](https://github.com/crustates/homebrew-tap) | The Homebrew tap for the `crust` CLI. |
 | [crustates/.github](https://github.com/crustates/.github) | This organisation profile and the community health defaults for every repository. |
 
 [crustates.eu](https://crustates.eu) · [docs.crustates.eu](https://docs.crustates.eu) · [Changelog](https://crustates.eu/changelog) · [Status](https://status.crustates.eu) · [Discussions](https://github.com/crustates/crustates/discussions) · [Contributing](CONTRIBUTING.md)
