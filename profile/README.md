@@ -1,29 +1,28 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/crustates/brand/main/svg/logo-horizontal-dark.svg">
-  <img alt="Crustates" src="https://raw.githubusercontent.com/crustates/brand/main/svg/logo-horizontal-light.svg" height="72">
-</picture>
+# Crustates
 
-**The open-source, European cloud for your apps and data.**
+**Your own cloud, on your own hardware.**
 
-Crustates is a hosted platform — we run it; you use it. Pre-alpha: we build in
-public, and nothing is production-ready yet.
+Crustates is an open source homelab platform. It runs VMs, apps, storage and
+networking on your own machines, with a read-only OS and a declarative API.
+It is early days: we are building milestone M0 in public.
 
-## Products
+## Product areas
 
-- <img src="https://raw.githubusercontent.com/crustates/brand/main/svg/icon-tide.svg" alt="Tide" height="48"> **Tide** — deploy: push your code, get a running app on EU infrastructure. An open-source Vercel alternative.
-- <img src="https://raw.githubusercontent.com/crustates/brand/main/svg/icon-reef.svg" alt="Reef" height="48"> **Reef** — data: Postgres with auth, REST and storage. An open-source Supabase alternative.
+- **Tide**: compute: VMs, microVMs and apps
+- **Reef**: storage
+- **Current**: networking
+- **Molt**: the read-only OS and its upgrades
+- **Cast**: clusters
+- **Barnacle**: plugins
+- **Spawn**: GitOps
+- **Assistant**: the AI assistant
 
-## Principles
+## Links
 
-- **Sovereign** — EU company, EU infrastructure, EU subprocessors.
-- **Open source** — AGPL-3.0 and public, for transparency and trust.
-- **No lock-in** — standard Postgres, containers, OTLP, `supabase-js` compatible; export your apps and data any time.
+[crustates.eu](https://crustates.eu) ·
+[Docs](https://docs.crustates.eu) ·
+[Roadmap](https://github.com/orgs/crustates/projects) ·
+[Discussions](https://github.com/crustates/crustates/discussions) ·
+[Contributing](https://github.com/crustates/crustates/blob/development/CONTRIBUTING.md)
 
-<p>
-  <img src="https://raw.githubusercontent.com/crustates/brand/main/svg/badge-open-source.svg" alt="Open source" height="28">
-  <img src="https://raw.githubusercontent.com/crustates/brand/main/svg/badge-hosted-eu.svg" alt="Hosted in the EU" height="28">
-  <img src="https://raw.githubusercontent.com/crustates/brand/main/svg/badge-sovereign.svg" alt="Sovereign" height="28">
-  <img src="https://raw.githubusercontent.com/crustates/brand/main/svg/badge-made-in-nl.svg" alt="Made in the Netherlands" height="28">
-</p>
-
-[crustates.eu](https://crustates.eu) · [docs.crustates.eu](https://docs.crustates.eu) · [Changelog](https://crustates.eu/changelog) · [Status](https://status.crustates.eu) · [Discussions](https://github.com/crustates/crustates/discussions) · [Contributing](CONTRIBUTING.md)
+Built in Rust, AGPLv3.

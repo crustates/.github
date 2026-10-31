@@ -1,0 +1,39 @@
+name: Bug report
+description: Something in Crustates doesn't work as expected.
+labels: ["kind/bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! **Security issues:** please don't open an issue, see SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The Crustates version you run, or the commit you built from.
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware
+      description: CPU, RAM, disks and network cards, and whether Crustates runs on bare metal or in a VM.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Remove secrets and personal data first.
+      render: shell

@@ -1,27 +1,14 @@
-## What and why
+## Summary
 
-<!-- What does this change, and why is it needed? Link the issue: Closes #123 -->
+<!-- What does this change, and why? -->
 
-## Target branch
+## Linked issue
 
-- [ ] This pull request targets `development` (the integration branch)
-- [ ] …or it targets `main` and the head branch is `development` or `hotfix/*`
-
-## Area
-
-- [ ] Tide
-- [ ] Reef
-- [ ] Control plane / API
-- [ ] Dashboard / CLI / TUI / MCP
-- [ ] Infra / deploy
-- [ ] Docs
+<!-- Closes #123 -->
 
 ## Checklist
 
-- [ ] The repo's checks pass locally (`cargo xtask check` in the monorepo)
 - [ ] Tests added or updated
-- [ ] Docs updated (if user-facing)
-- [ ] New dependencies pass the component policy (OSI licence or a European
-      managed service behind a port; `cargo deny check` in the monorepo)
-- [ ] No new `just`, pnpm or Node tooling: `cargo xtask` and Bun
-- [ ] Commits are signed off (`git commit -s`)
+- [ ] Docs updated for user-facing changes
+- [ ] ADR added in `docs/adr/` if this is a bigger change (see CONTRIBUTING.md)
+- [ ] Commits signed off (`git commit -s`)
