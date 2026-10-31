@@ -1,7 +1,6 @@
 # Security policy
 
-Security is central to what Crustates promises its customers. Thank you for
-helping keep the platform and its users safe.
+Thank you for helping keep Crustates and the homelabs that run it safe.
 
 ## Reporting a vulnerability
 
@@ -17,7 +16,7 @@ Report privately through one of these:
 
 Please include:
 
-- what the issue is and where (component, version or URL)
+- what the issue is and where (component, version or commit)
 - steps to reproduce, or a proof of concept
 - the impact you think it has
 
@@ -25,34 +24,20 @@ You can write in English or Dutch.
 
 ## What to expect
 
-| Step | Target |
-|---|---|
-| Acknowledgement | within 2 business days |
-| Initial assessment | within 5 business days |
-| Fix for critical issues | as fast as possible, aiming for 7 days |
-| Fix for other issues | depending on severity, within 90 days |
-
-We keep you updated, agree on a disclosure date with you, and credit you in the
-advisory unless you prefer to stay anonymous. We follow coordinated disclosure
-with a default window of 90 days.
+We answer within 3 working days. We keep you updated, agree on a disclosure
+date with you, and credit you in the advisory unless you prefer to stay
+anonymous. We follow coordinated disclosure with a default window of 90 days.
 
 ## Scope
 
-In scope:
+In scope: the code in any repository under
+[github.com/crustates](https://github.com/crustates), including insecure
+defaults it ships with.
 
-- the code in any repository under [github.com/crustates](https://github.com/crustates)
-- the hosted service at `*.crustates.eu`, including `*.tide.eu` app routing and Reef endpoints
-
-When testing the hosted service:
-
-- only use accounts and projects you own
-- never access, change or delete other customers' data; stop and report as soon as you could
-- no denial-of-service, spam or social engineering of our staff
-- no physical attacks on data centres
-
-Out of scope: issues in customers' own applications hosted on Tide, reports
-from automated scanners without a demonstrated impact, and missing best-practice
-headers without a concrete exploit.
+Crustates is self-hosted: we don't run it for you. Out of scope: weaknesses in
+how one particular installation is configured, reports from automated scanners
+without a demonstrated impact, and missing best-practice headers without a
+concrete exploit.
 
 ## Safe harbour
 

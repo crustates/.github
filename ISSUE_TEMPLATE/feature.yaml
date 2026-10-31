@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest something Crustates should do.
+labels: ["kind/feature", "needs triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What are you trying to do, and what gets in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should Crustates do about it?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Product area
+      options:
+        - Tide (compute)
+        - Reef (storage)
+        - Current (networking)
+        - Molt (OS and upgrades)
+        - Cast (clusters)
+        - Barnacle (plugins)
+        - Spawn (GitOps)
+        - Assistant
+        - Console
+        - Docs
+    validations:
+      required: true
